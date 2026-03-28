@@ -31,11 +31,11 @@ async function writeJson(filePath, value) {
 
 app.get("/api/profile", (_req, res) => {
   res.json({
-    name: "Your Name",
-    role: "Full-Stack Developer",
-    tagline: "I craft immersive web experiences with clean architecture.",
+    name: "Chimdiebube Ukaere",
+    role: "Software Engineer",
+    tagline: "Enthusiastic about creating innovative solutions.",
     location: "Remote",
-    availability: "Open to freelance and full-time opportunities"
+    availability: "Open to Internship and entry-level opportunities"
   });
 });
 

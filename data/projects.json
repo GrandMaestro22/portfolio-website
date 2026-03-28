@@ -1,20 +1,27 @@
-[
-  {
-    "title": "CinePulse",
-    "description": "A movie discovery platform with personalized recommendations, watchlists, and fast semantic search.",
-    "stack": ["React", "Node.js", "PostgreSQL", "Redis"],
-    "link": "https://example.com/cinepulse"
+
+  [
+    {
+      "title": "F1 Performance Analytics",
+    "description": "SQL driven insights into Formula 1 performance metrics, including lap times, pit stop efficiency, and driver comparisons.",
+    "stack": ["SQL", "Python", "Pandas"],
+    "link": "https://github.com/GrandMaestro22/f1-performance-analytics-sql"
   },
   {
-    "title": "TradeGrid",
-    "description": "A real-time crypto dashboard with candlestick charts, alerts, and websocket event streams.",
-    "stack": ["TypeScript", "Express", "Socket.IO", "Chart.js"],
-    "link": "https://example.com/tradegrid"
+    "title": "IMDB Movie Explorer",
+    "description": "A beginner-friendly SQL project exploring the IMDb dataset using SQL queries. Built using DataGrip + the IMDb Complete Dataset (Kaggle).",
+    "stack": ["SQL", "Python", "Pandas"],
+    "link": "https://github.com/GrandMaestro22/imdb_sql_movie_explorer"
   },
   {
-    "title": "ShiftPlanner",
-    "description": "A scheduling app for teams with conflict detection, drag-and-drop shifts, and automated reminders.",
-    "stack": ["Vue", "Firebase", "Cloud Functions"],
-    "link": "https://example.com/shiftplanner"
-  }
-]
+    "title": "Python ATM Machine",
+    "description": "A simple ATM simulation built with Python, demonstrating core OOP principles and user interaction.",
+    "stack": ["Python"],
+    "link": "https://github.com/GrandMaestro22/python-atm-machine"
+  },
+  {
+    "title": "Graphical Calculator",
+    "description": "Dual-mode scientific calculator! Whether you're a terminal purist or prefer clickable buttons, we've got you covered with both a command-line and graphical interface.",
+    "stack": ["C++"],
+      "link": "https://github.com/GrandMaestro22/Graphical-Calculator"
+    }
+  ]
