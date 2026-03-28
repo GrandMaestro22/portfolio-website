@@ -1,0 +1,20 @@
+[
+  {
+    "title": "CinePulse",
+    "description": "A movie discovery platform with personalized recommendations, watchlists, and fast semantic search.",
+    "stack": ["React", "Node.js", "PostgreSQL", "Redis"],
+    "link": "https://example.com/cinepulse"
+  },
+  {
+    "title": "TradeGrid",
+    "description": "A real-time crypto dashboard with candlestick charts, alerts, and websocket event streams.",
+    "stack": ["TypeScript", "Express", "Socket.IO", "Chart.js"],
+    "link": "https://example.com/tradegrid"
+  },
+  {
+    "title": "ShiftPlanner",
+    "description": "A scheduling app for teams with conflict detection, drag-and-drop shifts, and automated reminders.",
+    "stack": ["Vue", "Firebase", "Cloud Functions"],
+    "link": "https://example.com/shiftplanner"
+  }
+]

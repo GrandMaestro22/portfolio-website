@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-glow" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a href="#" class="brand">REDLINE<span>.dev</span></a>
+      <button id="themeToggle" class="theme-toggle" type="button">Toggle Ember</button>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">FULL-STACK PORTFOLIO</p>
+          <h1 id="profileName">Loading...</h1>
+          <p id="profileTagline" class="tagline">Please wait while your profile loads.</p>
+          <p id="profileMeta" class="meta"></p>
+          <div class="cta-row">
+            <a class="btn solid" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Let's Work</a>
+          </div>
+        </div>
+        <div class="hero-panel reveal">
+          <div class="scanline"></div>
+          <p class="panel-title">Tech Focus</p>
+          <ul class="panel-list">
+            <li>Scalable API Design</li>
+            <li>Modern Frontend Architecture</li>
+            <li>Automation & Deployments</li>
+            <li>Performance Optimization</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <h2>Core Skills</h2>
+        <div class="skills-grid">
+          <span>JavaScript</span>
+          <span>TypeScript</span>
+          <span>Node.js</span>
+          <span>React</span>
+          <span>Express</span>
+          <span>SQL</span>
+          <span>NoSQL</span>
+          <span>AWS</span>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <h2>Featured Projects</h2>
+        <div id="projectGrid" class="project-grid"></div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <h2>Contact</h2>
+        <form id="contactForm" class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn solid" type="submit">Send Message</button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
