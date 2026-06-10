@@ -92,6 +92,27 @@ body {
   transform: translateY(-2px);
 }
 
+.topbar-actions {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.github-link {
+  color: var(--text-main);
+  text-decoration: none;
+  border: 1px solid var(--red-main);
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: transparent;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.github-link:hover {
+  background: rgba(255, 59, 59, 0.12);
+  transform: translateY(-2px);
+}
+
 main {
   width: min(1100px, 92vw);
   margin: 0 auto;

@@ -41,7 +41,6 @@ function renderProjects(projects) {
       <h3>${project.title}</h3>
       <p>${project.description}</p>
       <div class="stack">${stackHtml}</div>
-      <p><a class="project-link" href="${project.link}" target="_blank" rel="noopener noreferrer">Open Project</a></p>
     `;
 
     container.appendChild(card);
